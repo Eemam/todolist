@@ -21,6 +21,6 @@ class DatabaseSeeder extends Seeder
         //     'email' => 'test@example.com',
         // ]);
 
-        Schedule::factory(25)->create();
+        Schedule::factory(2500)->create();
     }
 }
